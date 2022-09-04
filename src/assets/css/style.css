@@ -1,0 +1,26 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+.banner {
+    background-image: url(../img/portada.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    height: 100vh;
+}
+
+p {
+    margin: 0;
+}
